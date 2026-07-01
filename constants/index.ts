@@ -504,27 +504,27 @@ export const floatingIcons = [
 
 export const heroSkillBadges = [
   {
-    name: "Business Analyst",
-    icon: "business",
-    color: "#3B82F6",
+    name: "Product Management",
+    icon: "product",
+    color: "#8B5CF6",
     position: "top",
   },
   {
-    name: "Product Analyst",
-    icon: "product",
-    color: "#8B5CF6",
+    name: "FinTech",
+    icon: "fintech",
+    color: "#10B981",
     position: "right",
-  },
-  {
-    name: "Data Analyst",
-    icon: "data",
-    color: "#06B6D4",
-    position: "bottom",
   },
   {
     name: "Data Analytics",
     icon: "analytics",
-    color: "#10B981",
+    color: "#06B6D4",
+    position: "bottom",
+  },
+  {
+    name: "Business Analysis",
+    icon: "business",
+    color: "#3B82F6",
     position: "left",
   },
 ];

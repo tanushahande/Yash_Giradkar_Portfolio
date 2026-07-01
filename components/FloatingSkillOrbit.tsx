@@ -1,14 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Briefcase, LineChart, BarChart3, Database } from "lucide-react";
+import { Briefcase, Layers, BarChart3, Landmark } from "lucide-react";
 import { heroSkillBadges } from "@/constants";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
+  product: Layers,
+  fintech: Landmark,
+  analytics: BarChart3,
   business: Briefcase,
-  product: LineChart,
-  data: BarChart3,
-  analytics: Database,
 };
 
 const positionClasses: Record<string, string> = {
