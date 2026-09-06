@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Linkedin, Download, Send, CheckCircle } from "lucide-react";
+import { Mail, MapPin, Linkedin, Download, Send, CheckCircle } from "lucide-react";
 import { SectionHeading } from "@/components/SectionHeading";
 import { contactInfo } from "@/constants";
 import { Button } from "@/components/ui/button";
@@ -72,7 +72,6 @@ export function Contact() {
 
             {[
               { icon: Mail, label: "Email", value: contactInfo.email, href: `mailto:${contactInfo.email}` },
-              { icon: Phone, label: "Phone", value: contactInfo.phone, href: `tel:${contactInfo.phone.replace(/\s/g, "")}` },
               { icon: MapPin, label: "Location", value: contactInfo.location, href: undefined },
               { icon: Linkedin, label: "LinkedIn", value: "Connect on LinkedIn", href: contactInfo.linkedin },
             ].map((item) => (
