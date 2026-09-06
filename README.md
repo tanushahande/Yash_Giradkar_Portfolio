@@ -25,7 +25,7 @@ Open [http://localhost:3000](http://localhost:3000).
 ## Before Deploying
 
 1. Add your photo as `public/profile.png`, then run `npm run optimize:profile`
-2. Update contact info in `constants/index.ts` (email, phone)
+2. Update contact info in `constants/index.ts` (email)
 3. Place your resume at `public/resume/Yash_Giradkar_Analyst.pdf`
 4. Update `siteConfig.url` in `constants/index.ts` with your domain
 5. Replace project GitHub/demo URLs with your actual links
